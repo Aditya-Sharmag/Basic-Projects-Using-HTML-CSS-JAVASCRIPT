@@ -1,0 +1,37 @@
+body {
+  background-color: #c3cfe2;
+}
+h1 {
+  font-size: 50px;
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  color: black;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.game-btn {
+  background-color: transparent;
+  border: 3px solid black;
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.btn-img {
+  height: 80px;
+}
+.btn-img-scissors {
+  height: 100px;
+}
+.display-result,
+.display-score,
+.display-moves {
+  text-align: center;
+  font-size: 30px;
+  font-family: "Times New Roman", Times, serif;
+}
